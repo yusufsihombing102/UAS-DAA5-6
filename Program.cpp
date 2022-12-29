@@ -53,7 +53,7 @@ void KMP(string x, int m, string y, int n)
         else if(i<m && j==n)
         {
             cout<<endl;
-            cout<<"Data Tidak Ditemukan";
+            cout<<"Data Kamu Tidak Ditemukan";
         }
     }
 }
@@ -65,7 +65,7 @@ int main()
     cout<<"Masukkan Kata/Kalimat : ";
     getline(cin,text);
     cout<<endl;
-    cout<<"Masukkan Kata/Kalimat yang mau dicara : ";
+    cout<<"Masukkan Kata/Kalimat yang mau kamu dicara : ";
     getline(cin,pattern);
     cout<<endl;
     KMP(pattern,pattern.length(),text,text.length());
